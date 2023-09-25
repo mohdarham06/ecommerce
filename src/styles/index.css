@@ -1,0 +1,84 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* UNIVERSAL SELECTOR */
+* {
+    font-family: 'Mooli','Ubuntu', "Fira sans", sans-serif;
+
+
+    /** It will remove all default 
+    ** margins and paddings */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+/* || ROOT || */
+:root {
+    --backgound: rgb(207, 207, 207);
+	--font: black;
+	--links: #8696b6;
+	--footer: #111827;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--font);
+}
+
+#root {
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--backgound);
+}
+
+main {
+	width: 100%;
+    flex-grow: 1;
+    /* to scroll main area not the root*/
+    /* overflow-y: auto; */
+}
+
+
+
+header {
+    background-color: #8696b6;
+}
+
+.header-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
