@@ -12,7 +12,7 @@ const Header = () => {
         <header>
             <div className='header-wrap'>
 
-                <h2>Brand</h2>
+                <div className='brand'>Brand</div>
                 
                 <nav>
                     <ul>

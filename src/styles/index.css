@@ -21,7 +21,7 @@ html {
 
 /* || ROOT || */
 :root {
-    --backgound: rgb(207, 207, 207);
+    --background: white;
 	--font: black;
 	--links: #8696b6;
 	--footer: #111827;
@@ -29,6 +29,7 @@ html {
 
 
 body {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,24 +40,19 @@ body {
 
 #root {
     width: 100%;
-    max-width: 800px;
+    /* max-width: 1200px; */
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: var(--backgound);
-}
-
-main {
-	width: 100%;
-    flex-grow: 1;
-    /* to scroll main area not the root*/
-    /* overflow-y: auto; */
+    background: var(--background);
 }
 
 
 
+
+/* Header */
 header {
-    background-color: #8696b6;
+    background-color: #dbe5fa;
 }
 
 .header-wrap {
@@ -67,17 +63,27 @@ header {
     padding: 1rem 2rem;
 }
 
-
+.header-wrap .brand {
+    font-size: 1.8rem;
+}
 
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 
 
+
+/* Main */
+main {
+	width: 100%;
+    flex-grow: 1;
+    /* to scroll main area not the root*/
+    /* overflow-y: auto; */
+}
 
 
 
