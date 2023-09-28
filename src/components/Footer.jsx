@@ -13,7 +13,7 @@ const Footer = () => {
 
                 <div className='grid-container'>
                     <div className='footer-brand'>brand</div>
-                    social can be here too
+                    Dark design with light colors
                 </div>
 
                 <div className='grid-container'>

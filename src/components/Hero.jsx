@@ -10,9 +10,9 @@ const Hero = () => {
                 <div className="hero-grid">
                 <div className="grid-teft">
                     <h1>Shop Electronics and Accessories</h1>
-                    <p></p>
+                    <p>Discover Your Tech Bliss: Explore Trendy Electronics & Accessories Now!</p>
 
-                    <button>Shop Now</button>
+                    <button>Explore Now</button>
                 </div>
 
                 </div>

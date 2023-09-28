@@ -64,6 +64,7 @@ header {
 
 .header-wrap .brand {
     font-size: 1.8rem;
+    font-weight: 600;
 }
 
 
@@ -80,7 +81,11 @@ nav ul{
     flex-direction: row;
     list-style: none;
     font-size: 1.7rem;
+    gap: 0.5rem;
 }
+
+
+
 
 
 
@@ -100,6 +105,42 @@ main {
     /* overflow-y: auto; */
 }
 
+
+
+
+
+
+
+
+
+/* Categories */
+.categories-section {
+    padding: 2rem 4rem;
+}
+
+.categories-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.categories-container .category-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories-container .image-container {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-bottom: 0.25rem;
+    background: radial-gradient(rgb(240, 248, 255), rgb(190, 214, 245));
+}
+
+.categories-container .name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
 
 
 
