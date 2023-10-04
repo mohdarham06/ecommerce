@@ -1,9 +1,9 @@
 
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Categories from "./components/Categories";
-import Footer from "./components/Footer";
+import Header from "./sections/Header";
+import Hero from "./sections/Hero";
+import Categories from "./sections/Categories";
+import Footer from "./sections/Footer";
 
 function App() {
     return (

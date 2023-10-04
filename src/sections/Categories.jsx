@@ -7,32 +7,39 @@ const Categories = () => {
 
                 <div className='category-box'>
                     <div className='image-container'></div>
-                    <div className="name">Headphones</div>
+                    <div className="name">All</div>
                 </div>
 
+                <div className='category-box'>
+                    <div className='image-container'></div>
+                    <div className="name">Furnitures</div>
+                </div>
 
                 <div className='category-box'>
                     <div className='image-container'>
                         <img src="images/categories/earbuds" alt="" />
                     </div>
-                    <div className="name">Bluetooth</div>
-                </div>
-
-
-                <div className='category-box'>
-                    <div className='image-container'></div>
-                    <div className="name">Smart Watch</div>
-                </div>
-
-
-                <div className='category-box'>
-                    <div className='image-container'></div>
-                    <div className="name">Speaker</div>
+                    <div className="name">Electronics</div>
                 </div>
 
                 <div className='category-box'>
                     <div className='image-container'></div>
-                    <div className="name">Tablets</div>
+                    <div className="name">Lamps</div>
+                </div>
+
+                <div className='category-box'>
+                    <div className='image-container'></div>
+                    <div className="name">Kitchen</div>
+                </div>
+
+                <div className='category-box'>
+                    <div className='image-container'></div>
+                    <div className="name">Chairs</div>
+                </div>
+
+                <div className='category-box'>
+                    <div className='image-container'></div>
+                    <div className="name">Skin Care</div>
                 </div>
 
 
